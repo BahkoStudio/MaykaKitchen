@@ -10,16 +10,14 @@
       'nav.recipes': 'Recept',
       'nav.about':   'Om Mayka',
       'nav.collab':  'Samarbeten',
-      'nav.buybook': 'Köp boken',
+      'nav.buybook': 'Köp min bok',
       'nav.open':    'Öppna meny',
 
       /* HERO – tre bilder i den fastnålade scenen */
-      'hero.kicker': 'Kokboken · Libris förlag',
       'hero.t1':     'Maykas',
       'hero.t2':     'gröna kök',
       'hero.sub':    'Kutle, hummus &amp; kärlek',
-      'hero.body':   'Mayka Gulos debutbok, där det gröna köket möter tusenåriga traditioner.',
-      'hero.btn':    'Köp boken',
+      'hero.btn':    'Köp min bok här',
       'hero.btn2':   'Gratis bloggrecept',
       'hero.scroll': 'Skrolla',
 
@@ -29,7 +27,7 @@
 
       's3.kicker': 'I boken',
       's3.title':  'Cirka 50 <em>recept</em>',
-      's3.body':   'Från vardagsrätter och grön festmat till måltider för fasta och stillhet. Inbunden, 160 sidor.',
+      's3.body':   'Från vardagsrätter och grön festmat till måltider för fasta och stillhet.',
       's4.kicker': 'Maykas ord',
       's4.quote':  '”Mat förenar människor, precis som kärlek, familj och tro.”',
       's4.by':     'Mayka Gulo',
@@ -49,15 +47,14 @@
       'f.band.t':   'Band',   'f.band': 'inbunden',
       'f.forlag.t': 'Förlag',
       'f.isbn.t':   'ISBN',
-      'inne.kalla': 'Källa: förlaget Libris.',
       'inne.quote':  '”Det här kapitlet är för henne. För kvinnorna i byn. För dem som med sina händer byggde framtid med kärlek, kreativitet och smak.”',
       'inne.src':    'Ur kapitlet <em>En hyllning till kvinnokraft, kärlek och rötter</em>, sidan 37',
-      'inne.btn':    'Köp boken',
+      'inne.btn':    'Köp min bok nu',
 
       /* UR MAYKAS KÖK */
       'kok.kicker': 'Från Maykas blogg',
       'kok.title':  'Maykas recept, <em>gratis</em>',
-      'kok.body':   'Här finns 17 av Maykas bloggrecept, gratis. Kokboken är en egen samling med cirka 50 recept ur det gröna köket.',
+      'kok.body':   '17 av Maykas bloggrecept, gratis att laga hemma.',
       'kok.btn':    'Alla bloggrecept',
 
       /* SIFFROR */
@@ -67,9 +64,8 @@
       'sp.tt':     'följare på TikTok',
       'sp.fb':     'följare på Facebook',
       'sp.yt':     'följare på YouTube',
-      'sp.total':  'följare totalt',
+      'sp.total':  'total räckvidd över alla kanaler',
       'sp.brands': 'Har samarbetat med',
-      'sp.src':    'Enligt Maykas mediakit.',
 
       /* OM MAYKA */
       'om.kicker': 'Om Mayka',
@@ -80,13 +76,8 @@
       'om.banner': '”God mat, starkare människor och en varmare vardag.”',
 
       /* SLUT */
-      'slut.kicker': 'Kokboken',
-      'slut.title':  'Maykas <em>gröna kök</em>',
-      'slut.body':   'Kutle, hummus &amp; kärlek. Inbunden, 160 sidor, från Libris förlag.',
-      'slut.btn':    'Köp boken',
-      'via':       'Köps via Bokus. Länken är en affiliatelänk.',
-      'band.cap':  'Mayka med boken.',
-      'kopbar.t': 'Köp boken', 'kopbar.s': 'via Bokus · affiliatelänk',
+      'slut.btn':    'Beställ min bok',
+      'kopbar.t': 'Köp min bok här',
 
       /* SOCIALA KANALER */
       'social.label': 'Följ mig',
@@ -98,16 +89,24 @@
       'cta.label':      'Samarbeten',
       'cta.heading':    'Låt oss skapa <em>tillsammans</em>',
       'cta.sub':        'Mayka samarbetar med varumärken som delar hennes värderingar och passar hennes målgrupp.',
-      'cta.card1.body': 'Vill du samarbeta med Maykas Kitchen? Mayka arbetar bland annat med:',
-      'collab.i1':  'Reels och videoinnehåll',
+      'cta.card1.body': 'Exempel på samarbeten',
+      'cta.f1': 'visningar på Instagram, 30 dagar',
+      'cta.f2': 'visningar på TikTok, 30 dagar',
+      'cta.f3': 'kvinnor',
+      'cta.f4': 'största åldersgruppen',
+      'cta.var.t': 'Sverige',
+      'cta.var': 'störst andel i Stockholm, Skåne och Västra Götaland',
+      'collab.i1':  'Reels / videoinnehåll',
       'collab.i2':  'Story-serier',
       'collab.i3':  'Produktrecensioner',
       'collab.i4':  'Receptutveckling',
       'collab.i5':  'Event och lanseringar',
-      'collab.i6':  'Ambassadörskap och långsiktiga samarbeten',
+      'collab.i6':  'Långsiktiga samarbeten',
+      'collab.i7': 'Uppslag i bok / receptsamarbeten',
+      'collab.i8': 'Ambassadörskap',
 
       /* FOOTER */
-      'footer.tagline':        'Mat från hjärtat &amp; tro i själen.<br>Assyriska/Syrianska rötter, alltid lagat med kärlek.',
+      'footer.tagline':        'Recept, livsstil och äkta stunder<br>med hjärtat i min assyriska/syrianska matkultur.',
       'footer.explore':        'Utforska',
       'footer.nl.title':       'Nyhetsbrev',
       'footer.nl.p':           'Få nya recept och matinspiration direkt i din inkorg!',
@@ -117,11 +116,12 @@
       'nl.fel':                'Det gick inte att skicka. Försök igen om en stund.',
       'footer.copy':           '© 2026 MaykasKitchen. Alla rättigheter förbehållna.',
       'footer.made':           'Skapad med ♥ i Skåne, Sverige',
-      'footer.aff':            'Köplänkarna till Bokus är affiliatelänkar.',
+      'footer.priv':           'Integritet och kakor',
+      'nl.integritet':         'Adressen används bara till nyhetsbrevet och du kan avsluta när du vill. <a href="integritet.html">Så hanterar vi dina uppgifter</a>.',
 
       /* POPUP */
       'popup.title':       'Matglädje<br><em>direkt i din inkorg</em>',
-      'popup.sub':         'Nya recept och säsongsinspiration, gratis varje månad.',
+      'popup.sub':         'Nya recept och matinspiration från mitt kök.',
       'popup.placeholder': 'Din e-postadress',
       'popup.btn':         'Prenumerera gratis',
       'popup.success':     '<span>✓</span> Tack! Du är nu med i gemenskapen 🌿',
@@ -167,7 +167,19 @@
       'tag.dessert':       'Dessert',
       'tag.mellanostern':  'Mellanöstern',
       'tag.hemlagat':      'Hemlagat',
-      'tag.grill':         'Grill'
+      'tag.grill':         'Grill',
+      'tag.bbq': 'BBQ',
+      'tag.familj': 'Familj',
+      'tag.halsosam': 'Hälsosam',
+      'tag.indiskt': 'Indiskt',
+      'tag.klassisk': 'Klassisk',
+      'tag.libanesiskt': 'Libanesiskt',
+      'tag.pasta': 'Pasta',
+      'tag.pizza': 'Pizza',
+      'tag.potatis': 'Potatis',
+      'tag.protein': 'Protein',
+      'tag.turkiskt': 'Turkiskt',
+      'tag.vardagslyx': 'Vardagslyx'
     },
 
     en: {
@@ -177,16 +189,14 @@
       'nav.recipes': 'Recipes',
       'nav.about':   'About Mayka',
       'nav.collab':  'Collaborations',
-      'nav.buybook': 'Buy the book',
+      'nav.buybook': 'Buy my book',
       'nav.open':    'Open menu',
 
       /* HERO */
-      'hero.kicker': 'The cookbook · Libris publishing',
       'hero.t1':     'Maykas',
       'hero.t2':     'gröna kök',
-      'hero.sub':    'Kutle, hummus &amp; love',
-      'hero.body':   'Mayka Gulo’s debut cookbook, where the green kitchen meets thousand-year-old traditions.',
-      'hero.btn':    'Buy the book',
+      'hero.sub':    'Kutle, hummus &amp; kärlek',
+      'hero.btn':    'Buy my book here',
       'hero.btn2':   'Free blog recipes',
       'hero.scroll': 'Scroll',
 
@@ -196,14 +206,14 @@
 
       's3.kicker': 'In the book',
       's3.title':  'About 50 <em>recipes</em>',
-      's3.body':   'From everyday dishes and green festive food to meals for fasting and stillness. Hardcover, 160 pages.',
+      's3.body':   'From everyday dishes and green festive food to meals for fasting and stillness.',
       's4.kicker': 'In Mayka’s words',
       's4.quote':  '“Food brings people together, just like love, family and faith.”',
       's4.by':     'Mayka Gulo',
 
       /* WHAT’S INSIDE */
       'inne.kicker': 'What’s inside',
-      'inne.title':  'Kutle, hummus <em>&amp; love</em>',
+      'inne.title':  'Kutle, hummus <em>&amp; kärlek</em>',
       'inne.body':   'In her debut cookbook Mayka Gulo invites you into a kitchen that joins the old and the new.',
       'inne.1t':     'Plant-based',
       'inne.1b':     'Green dishes, ancient flavours.',
@@ -216,15 +226,14 @@
       'f.band.t':   'Binding', 'f.band': 'hardcover',
       'f.forlag.t': 'Publisher',
       'f.isbn.t':   'ISBN',
-      'inne.kalla': 'Source: the publisher Libris.',
       'inne.quote':  '“This chapter is for her. For the women of the village. For those who built a future with their hands, with love, creativity and taste.”',
       'inne.src':    'From the chapter <em>A tribute to the strength of women, love and roots</em>, page 37 (in Swedish)',
-      'inne.btn':    'Buy the book',
+      'inne.btn':    'Buy my book now',
 
       /* FROM MAYKA’S KITCHEN */
       'kok.kicker': 'From Mayka’s blog',
       'kok.title':  'Mayka’s recipes, <em>free</em>',
-      'kok.body':   'Here are 17 of Mayka’s blog recipes, free. The cookbook is a separate collection of about 50 recipes from the green kitchen.',
+      'kok.body':   '17 of Mayka’s blog recipes, free to cook at home.',
       'kok.btn':    'All blog recipes',
 
       /* NUMBERS */
@@ -234,9 +243,8 @@
       'sp.tt':     'followers on TikTok',
       'sp.fb':     'followers on Facebook',
       'sp.yt':     'followers on YouTube',
-      'sp.total':  'followers in total',
+      'sp.total':  'total reach across all channels',
       'sp.brands': 'Has worked with',
-      'sp.src':    'From Mayka’s media kit.',
 
       /* ABOUT */
       'om.kicker': 'About Mayka',
@@ -247,13 +255,8 @@
       'om.banner': '“Good food, stronger people and a warmer everyday life.”',
 
       /* CLOSING */
-      'slut.kicker': 'The cookbook',
-      'slut.title':  'Maykas <em>gröna kök</em>',
-      'slut.body':   'Kutle, hummus &amp; love. Hardcover, 160 pages, published by Libris.',
-      'slut.btn':    'Buy the book',
-      'via':       'Sold via Bokus. The link is an affiliate link.',
-      'band.cap':  'Mayka with the book.',
-      'kopbar.t': 'Buy the book', 'kopbar.s': 'via Bokus · affiliate link',
+      'slut.btn':    'Order my book',
+      'kopbar.t': 'Buy my book here',
 
       /* SOCIAL */
       'social.label': 'Follow me',
@@ -265,16 +268,24 @@
       'cta.label':      'Collaborations',
       'cta.heading':    'Let’s create <em>together</em>',
       'cta.sub':        'Mayka works with brands that share her values and suit her audience.',
-      'cta.card1.body': 'Want to work with Maykas Kitchen? Mayka works with, among other things:',
-      'collab.i1':  'Reels and video content',
+      'cta.card1.body': 'Examples of collaborations',
+      'cta.f1': 'views on Instagram, 30 days',
+      'cta.f2': 'views on TikTok, 30 days',
+      'cta.f3': 'women',
+      'cta.f4': 'largest age group',
+      'cta.var.t': 'Sweden',
+      'cta.var': 'largest share in Stockholm, Skåne and Västra Götaland',
+      'collab.i1':  'Reels / video content',
       'collab.i2':  'Story series',
       'collab.i3':  'Product reviews',
       'collab.i4':  'Recipe development',
       'collab.i5':  'Events and launches',
-      'collab.i6':  'Ambassadorships and long-term partnerships',
+      'collab.i6':  'Long-term partnerships',
+      'collab.i7': 'Book spreads / recipe partnerships',
+      'collab.i8': 'Ambassadorships',
 
       /* FOOTER */
-      'footer.tagline':        'Food from the heart &amp; faith in the soul.<br>Assyrian/Syriac roots, always cooked with love.',
+      'footer.tagline':        'Recipes, lifestyle and real moments,<br>rooted in my Assyrian/Syriac food culture.',
       'footer.explore':        'Explore',
       'footer.nl.title':       'Newsletter',
       'footer.nl.p':           'Get new recipes and food inspiration straight to your inbox!',
@@ -284,17 +295,18 @@
       'nl.fel':                'It could not be sent. Please try again in a moment.',
       'footer.copy':           '© 2026 MaykasKitchen. All rights reserved.',
       'footer.made':           'Made with ♥ in Skåne, Sweden',
-      'footer.aff':            'The links to Bokus are affiliate links.',
+      'footer.priv':           'Privacy and cookies',
+      'nl.integritet':         'Your address is only used for the newsletter and you can unsubscribe at any time. <a href="integritet.html">How we handle your data</a>.',
 
       /* POPUP */
       'popup.title':       'Food joy<br><em>straight to your inbox</em>',
-      'popup.sub':         'New recipes and seasonal inspiration, free every month.',
+      'popup.sub':         'New recipes and food inspiration from my kitchen.',
       'popup.placeholder': 'Your email address',
       'popup.btn':         'Subscribe for free',
       'popup.success':     '<span>✓</span> Thank you! You’re now part of the community 🌿',
       'popup.or':          'or',
       'popup.book.title':  'Buy my book',
-      'popup.book.sub':    'Maykas gröna kök · 349 SEK',
+      'popup.book.sub':    'Maykas gröna kök · 349 kr',
 
       /* RECIPE PAGE */
       'back':           'Back',
@@ -334,12 +346,26 @@
       'tag.dessert':       'Dessert',
       'tag.mellanostern':  'Middle East',
       'tag.hemlagat':      'Homemade',
-      'tag.grill':         'Grill'
+      'tag.grill':         'Grill',
+      'tag.bbq': 'BBQ',
+      'tag.familj': 'Family',
+      'tag.halsosam': 'Healthy',
+      'tag.indiskt': 'Indian',
+      'tag.klassisk': 'Classic',
+      'tag.libanesiskt': 'Lebanese',
+      'tag.pasta': 'Pasta',
+      'tag.pizza': 'Pizza',
+      'tag.potatis': 'Potato',
+      'tag.protein': 'Protein',
+      'tag.turkiskt': 'Turkish',
+      'tag.vardagslyx': 'Everyday luxury'
     }
   };
 
   window.MK_T = T;
-  window.MK_LANG = localStorage.getItem('mk-lang') || 'sv';
+  let sparatSprak = null;
+  try { sparatSprak = localStorage.getItem('mk-lang'); } catch (_) {}
+  window.MK_LANG = sparatSprak === 'en' ? 'en' : 'sv';
 
   window.getT = function (key) {
     return (T[window.MK_LANG] && T[window.MK_LANG][key]) || (T.sv[key]) || key;
@@ -355,7 +381,7 @@
 
   window.applyLang = function (lang) {
     window.MK_LANG = lang;
-    localStorage.setItem('mk-lang', lang);
+    try { localStorage.setItem('mk-lang', lang); } catch (_) {}
     document.documentElement.lang = lang;
 
     document.querySelectorAll('[data-i18n]').forEach(el => {

@@ -7,7 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
    Nyckeln är publik med flit: den säger bara vilken inkorg inskicket går till och ger
    ingen åtkomst till något (se docs/formular-web3forms.md). Tills Mayka har en egen
    nyckel används Bahkos demonyckel, som landar hos mathias@bahkobyra.se med
-   "Nyhetsbrev maykaskitchen.se" i ämnesraden. Byt NL_NYCKEL när Maykas nyckel finns. */
+   "Nyhetsbrev maykaskitchen.se" i ämnesraden. Byt NL_NYCKEL här OCH i index.html
+   (sidfotsformulärets dolda access_key, används när JavaScript inte körs) när Maykas nyckel finns. */
 const NL_NYCKEL = '38db5da0-8af0-4b31-bcdc-a840e84e5764';
 
 async function skickaNyhetsbrev(form, kalla) {
@@ -34,6 +35,7 @@ if (!REDUCE && typeof Lenis === 'function') {
     easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     smoothWheel: true
   });
+  window.MK_LENIS = lenis;
   lenis.on('scroll', ScrollTrigger.update);
   gsap.ticker.add(time => lenis.raf(time * 1000));
   gsap.ticker.lagSmoothing(0);
@@ -51,6 +53,11 @@ function initHeader() {
     onEnter: () => header.classList.add('on-scroll'),
     onLeaveBack: () => header.classList.remove('on-scroll')
   });
+  // Slutet är början igen: samma genomskinliga rubrikrad över den mörka scenen.
+  if (document.getElementById('slut')) ScrollTrigger.create({
+    trigger: '#slut', start: 'top 70px', end: 'bottom 70px',
+    onToggle: self => header.classList.toggle('over-slut', self.isActive)
+  });
 }
 
 /* ── SCENEN – 3D-boken snurrar medan textbilderna byter ─── */
@@ -65,7 +72,6 @@ function initStage() {
   // Intro: boken landar (eget offset-objekt så att den inte krockar med skrollens värden), texten stiger
   if (har3d) gsap.from(window.BOK3D.intro, { scale: 0.6, y: -0.8, ry: -1.1, duration: 1.6, ease: 'power3.out', delay: 0.1 });
   gsap.from('.slide-1 > *', { y: 40, autoAlpha: 0, duration: 1.1, ease: 'power3.out', stagger: 0.12, delay: 0.25 });
-  gsap.from('.slide-side-1 > *', { y: 30, autoAlpha: 0, duration: 1.0, ease: 'power3.out', stagger: 0.06, delay: 0.7 });
   gsap.from('#stage-cta', { y: 30, autoAlpha: 0, duration: 1.0, ease: 'power3.out', delay: 0.85 });
 
   if (REDUCE) return;
@@ -224,6 +230,36 @@ function initMobileNav() {
   mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
 }
 
+/* ── KÖPRADEN viker undan när slutets egen köpknapp syns (två knappar med samma pris i bild) ── */
+function initKopbar() {
+  const bar = document.getElementById('kopbar'), mal = document.querySelector('#slut .pris-rad');
+  if (!bar || !mal || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(e => bar.classList.toggle('viker', e[0].isIntersecting), { threshold: 0.6 }).observe(mal);
+}
+
+/* ── DJUPLÄNK – scenen nålas fast efter webbläsarens eget hopp, så hoppa igen när allt är mätt ── */
+function landaPaHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const mal = id && document.getElementById(id);
+  if (!mal) return null;
+  if (window.ScrollTrigger) ScrollTrigger.refresh();
+  const y = Math.max(0, mal.getBoundingClientRect().top + window.scrollY - 70);
+  if (window.MK_LENIS) window.MK_LENIS.scrollTo(y, { immediate: true, force: true });
+  else window.scrollTo(0, y);
+  return y;
+}
+let besokarenRorde = false;
+['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(t => window.addEventListener(t, () => { besokarenRorde = true; }, { passive: true, once: true }));
+window.addEventListener('load', () => {
+  if (landaPaHash() === null) return;
+  // Webbläsarens eget ankarhopp och sena bilder/typsnitt kan flytta sidan efteråt: rätta igen tills besökaren själv rör sidan.
+  [300, 900, 1800, 3200].forEach(ms => setTimeout(() => { if (!besokarenRorde) landaPaHash(); }, ms));
+});
+// Även när bara #-delen byts i samma flik. Klick på menylänkar sköter Lenis själv med mjuk skroll.
+let senastHashKlick = 0;
+document.addEventListener('click', e => { if (e.target.closest && e.target.closest('a[href^="#"]')) senastHashKlick = Date.now(); }, true);
+window.addEventListener('hashchange', () => { if (Date.now() - senastHashKlick > 1000) landaPaHash(); });
+
 /* ── START ───────────────────────────────────────────────── */
 window.addEventListener('DOMContentLoaded', () => {
   initLangToggle();
@@ -233,4 +269,5 @@ window.addEventListener('DOMContentLoaded', () => {
   initForms();
   initPopup();
   initMobileNav();
+  initKopbar();
 });
