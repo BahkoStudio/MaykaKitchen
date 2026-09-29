@@ -41,9 +41,9 @@
       'inne.1t':     'Växtbaserat',
       'inne.1b':     'Gröna rätter, uråldriga smaker.',
       'inne.2t':     'Påskfastan',
-      'inne.2b':     'Många recept skapade för påskfastan.',
-      'inne.3t':     'Farmors kapitel',
-      'inne.3b':     'En hyllning till kvinnorna bakom traditionen.',
+      'inne.2b':     'Många recept skapade med påskfastan i åtanke.',
+      'inne.3t':     'Kvinnokraft och rötter',
+      'inne.3b':     'Ett kapitel om Maykas farmor och kvinnorna i byn.',
       'f.recept.t': 'Recept', 'f.recept': 'cirka 50',
       'f.sidor.t':  'Sidor',
       'f.band.t':   'Band',   'f.band': 'inbunden',
@@ -57,7 +57,7 @@
       /* UR MAYKAS KÖK */
       'kok.kicker': 'Från Maykas blogg',
       'kok.title':  'Maykas recept, <em>gratis</em>',
-      'kok.body':   'Här finns 17 av Maykas bloggrecept, gratis. Kokboken är en egen samling med cirka 50 växtbaserade recept.',
+      'kok.body':   'Här finns 17 av Maykas bloggrecept, gratis. Kokboken är en egen samling med cirka 50 recept ur det gröna köket.',
       'kok.btn':    'Alla bloggrecept',
 
       /* SIFFROR */
@@ -69,7 +69,7 @@
       'sp.yt':     'följare på YouTube',
       'sp.total':  'följare totalt',
       'sp.brands': 'Har samarbetat med',
-      'sp.src':    'Enligt Maykas mediakit, september 2026.',
+      'sp.src':    'Enligt Maykas mediakit.',
 
       /* OM MAYKA */
       'om.kicker': 'Om Mayka',
@@ -84,9 +84,9 @@
       'slut.title':  'Maykas <em>gröna kök</em>',
       'slut.body':   'Kutle, hummus &amp; kärlek. Inbunden, 160 sidor, från Libris förlag.',
       'slut.btn':    'Köp boken',
-      'via':       'Köps via Bokus.',
-      'band.cap':  'Mayka med boken i Libris monter.',
-      'kopbar.t': 'Köp boken', 'kopbar.s': 'via Bokus',
+      'via':       'Köps via Bokus. Länken är en affiliatelänk.',
+      'band.cap':  'Mayka med boken.',
+      'kopbar.t': 'Köp boken', 'kopbar.s': 'via Bokus · affiliatelänk',
 
       /* SOCIALA KANALER */
       'social.label': 'Följ mig',
@@ -208,9 +208,9 @@
       'inne.1t':     'Plant-based',
       'inne.1b':     'Green dishes, ancient flavours.',
       'inne.2t':     'Lent',
-      'inne.2b':     'Many recipes created for Lent.',
-      'inne.3t':     'Grandmother’s chapter',
-      'inne.3b':     'A tribute to the women behind the tradition.',
+      'inne.2b':     'Many recipes created with Lent in mind.',
+      'inne.3t':     'Strength of women, and roots',
+      'inne.3b':     'A chapter about Mayka’s grandmother and the women of the village.',
       'f.recept.t': 'Recipes', 'f.recept': 'about 50',
       'f.sidor.t':  'Pages',
       'f.band.t':   'Binding', 'f.band': 'hardcover',
@@ -224,7 +224,7 @@
       /* FROM MAYKA’S KITCHEN */
       'kok.kicker': 'From Mayka’s blog',
       'kok.title':  'Mayka’s recipes, <em>free</em>',
-      'kok.body':   'Here are 17 of Mayka’s blog recipes, free. The cookbook is a separate collection of about 50 plant-based recipes.',
+      'kok.body':   'Here are 17 of Mayka’s blog recipes, free. The cookbook is a separate collection of about 50 recipes from the green kitchen.',
       'kok.btn':    'All blog recipes',
 
       /* NUMBERS */
@@ -236,7 +236,7 @@
       'sp.yt':     'followers on YouTube',
       'sp.total':  'followers in total',
       'sp.brands': 'Has worked with',
-      'sp.src':    'From Mayka’s media kit, September 2026.',
+      'sp.src':    'From Mayka’s media kit.',
 
       /* ABOUT */
       'om.kicker': 'About Mayka',
@@ -251,9 +251,9 @@
       'slut.title':  'Maykas <em>gröna kök</em>',
       'slut.body':   'Kutle, hummus &amp; love. Hardcover, 160 pages, published by Libris.',
       'slut.btn':    'Buy the book',
-      'via':       'Sold via Bokus.',
-      'band.cap':  'Mayka with the book at the Libris stand.',
-      'kopbar.t': 'Buy the book', 'kopbar.s': 'via Bokus',
+      'via':       'Sold via Bokus. The link is an affiliate link.',
+      'band.cap':  'Mayka with the book.',
+      'kopbar.t': 'Buy the book', 'kopbar.s': 'via Bokus · affiliate link',
 
       /* SOCIAL */
       'social.label': 'Follow me',
