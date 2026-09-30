@@ -632,3 +632,5 @@ a { color: inherit; }
 .logo-mark { width: 36px; height: 36px; margin-right: 0.45rem; flex: none; color: inherit; overflow: visible; }
 .footer-logo { display: inline-flex; align-items: center; gap: 0.55rem; }
 @media (max-width: 400px) { .logo-mark { width: 32px; height: 32px; margin-right: 0.35rem; } }
+
+

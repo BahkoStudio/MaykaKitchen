@@ -122,6 +122,7 @@
       'footer.copy':           '© 2026 Mayka Gulo. Alla rättigheter förbehållna.',
       'footer.made':           'Skapad med ♥ i Skåne, Sverige',
       'footer.priv':           'Integritet och kakor',
+      'footer.kakor': 'Kakinställningar',
       'nl.integritet':         'Adressen används bara till nyhetsbrevet och du kan avsluta när du vill. <a href="integritet.html">Så hanterar vi dina uppgifter</a>.',
 
       /* POPUP */
@@ -306,6 +307,7 @@
       'footer.copy':           '© 2026 Mayka Gulo. All rights reserved.',
       'footer.made':           'Made with ♥ in Skåne, Sweden',
       'footer.priv':           'Privacy and cookies',
+      'footer.kakor': 'Cookie settings',
       'nl.integritet':         'Your address is only used for the newsletter and you can unsubscribe at any time. <a href="integritet.html">How we handle your data</a>.',
 
       /* POPUP */

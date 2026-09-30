@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv" class="no-js">
 <head>
+  <script src="js/samtycke.js" data-annonser="ja"></script>
   <script>document.documentElement.classList.remove('no-js')</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,10 @@
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#1C4229">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="favicon.ico?v=kockmossa" sizes="48x48">
+  <link rel="icon" href="favicon.svg?v=kockmossa" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png?v=kockmossa" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=kockmossa">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -196,18 +198,9 @@
     .sr-recept p { font-size: 0.9rem; color: var(--mid); margin: 0.4rem 0; }
     .no-js .lang-toggle { display: none; }
     .td-pixel { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+  
   </style>
   <script src="js/i18n.js"></script>
-  <script>
-    /* Annonsskriptet (Maykas AdSense) laddas när sidan är klar, så det inte bromsar första skärmen. */
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        var a = document.createElement('script'); a.async = true; a.crossOrigin = 'anonymous';
-        a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4880340628636698';
-        document.head.appendChild(a);
-      }, 2500);
-    });
-  </script>
 </head>
 <body>
 
@@ -374,7 +367,7 @@
 
 <footer class="site-footer">
   <span>© 2026 Mayka Gulo</span>
-  <a class="footer-priv" href="integritet.html" data-i18n="footer.priv">Integritet och kakor</a>
+  <a class="footer-priv" href="integritet.html" data-i18n="footer.priv">Integritet och kakor</a> <a class="footer-priv" href="#" data-kakinstallningar data-i18n="footer.kakor">Kakinställningar</a>
   <span>Hemsida av <a href="https://bahkobyra.se" target="_blank" rel="noopener">Bahko Byrå</a></span>
 </footer>
 
