@@ -1,3 +1,187 @@
 {
-  "outputDirectory": ".claude/skills/video-to-website/maykas/site"
+  "outputDirectory": ".claude/skills/video-to-website/maykas/site",
+  "redirects": [
+    {
+      "source": "/recept.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "(?<id>[a-z0-9-]+)"
+        }
+      ],
+      "destination": "/recept/:id/",
+      "permanent": true
+    },
+    {
+      "source": "/batata-harra",
+      "destination": "/recept/batata-harra/",
+      "permanent": true
+    },
+    {
+      "source": "/batata-harra/",
+      "destination": "/recept/batata-harra/",
+      "permanent": true
+    },
+    {
+      "source": "/friterad-kyckling-bbq",
+      "destination": "/recept/friterad-kyckling-bbq/",
+      "permanent": true
+    },
+    {
+      "source": "/friterad-kyckling-bbq/",
+      "destination": "/recept/friterad-kyckling-bbq/",
+      "permanent": true
+    },
+    {
+      "source": "/hummus-x3",
+      "destination": "/recept/hummus-x3/",
+      "permanent": true
+    },
+    {
+      "source": "/hummus-x3/",
+      "destination": "/recept/hummus-x3/",
+      "permanent": true
+    },
+    {
+      "source": "/humse-qarhone",
+      "destination": "/recept/humse-qarhone/",
+      "permanent": true
+    },
+    {
+      "source": "/humse-qarhone/",
+      "destination": "/recept/humse-qarhone/",
+      "permanent": true
+    },
+    {
+      "source": "/kafta-bil-sejnie",
+      "destination": "/recept/kafta-bil-sejnie/",
+      "permanent": true
+    },
+    {
+      "source": "/kafta-bil-sejnie/",
+      "destination": "/recept/kafta-bil-sejnie/",
+      "permanent": true
+    },
+    {
+      "source": "/kall-foul-medames",
+      "destination": "/recept/kall-foul-medames/",
+      "permanent": true
+    },
+    {
+      "source": "/kall-foul-medames/",
+      "destination": "/recept/kall-foul-medames/",
+      "permanent": true
+    },
+    {
+      "source": "/kikarts-tikka-masala",
+      "destination": "/recept/kikarts-tikka-masala/",
+      "permanent": true
+    },
+    {
+      "source": "/kikarts-tikka-masala/",
+      "destination": "/recept/kikarts-tikka-masala/",
+      "permanent": true
+    },
+    {
+      "source": "/kofta-bil-sanieh",
+      "destination": "/recept/kofta-bil-sanieh/",
+      "permanent": true
+    },
+    {
+      "source": "/kofta-bil-sanieh/",
+      "destination": "/recept/kofta-bil-sanieh/",
+      "permanent": true
+    },
+    {
+      "source": "/kyckling-shawarma",
+      "destination": "/recept/kyckling-shawarma/",
+      "permanent": true
+    },
+    {
+      "source": "/kyckling-shawarma/",
+      "destination": "/recept/kyckling-shawarma/",
+      "permanent": true
+    },
+    {
+      "source": "/kycklingfile-potatis-dragon",
+      "destination": "/recept/kycklingfile-potatis-dragon/",
+      "permanent": true
+    },
+    {
+      "source": "/kycklingfile-potatis-dragon/",
+      "destination": "/recept/kycklingfile-potatis-dragon/",
+      "permanent": true
+    },
+    {
+      "source": "/lahmo-do-bayto",
+      "destination": "/recept/lahmo-do-bayto/",
+      "permanent": true
+    },
+    {
+      "source": "/lahmo-do-bayto/",
+      "destination": "/recept/lahmo-do-bayto/",
+      "permanent": true
+    },
+    {
+      "source": "/lax-risbowl",
+      "destination": "/recept/lax-risbowl/",
+      "permanent": true
+    },
+    {
+      "source": "/lax-risbowl/",
+      "destination": "/recept/lax-risbowl/",
+      "permanent": true
+    },
+    {
+      "source": "/lins-bulgur-jarpar",
+      "destination": "/recept/lins-bulgur-jarpar/",
+      "permanent": true
+    },
+    {
+      "source": "/lins-bulgur-jarpar/",
+      "destination": "/recept/lins-bulgur-jarpar/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-lahmacun",
+      "destination": "/recept/mini-lahmacun/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-lahmacun/",
+      "destination": "/recept/mini-lahmacun/",
+      "permanent": true
+    },
+    {
+      "source": "/pannpizzor",
+      "destination": "/recept/pannpizzor/",
+      "permanent": true
+    },
+    {
+      "source": "/pannpizzor/",
+      "destination": "/recept/pannpizzor/",
+      "permanent": true
+    },
+    {
+      "source": "/pasta-pesto",
+      "destination": "/recept/pasta-pesto/",
+      "permanent": true
+    },
+    {
+      "source": "/pasta-pesto/",
+      "destination": "/recept/pasta-pesto/",
+      "permanent": true
+    },
+    {
+      "source": "/qrimyothe-munkar",
+      "destination": "/recept/qrimyothe-munkar/",
+      "permanent": true
+    },
+    {
+      "source": "/qrimyothe-munkar/",
+      "destination": "/recept/qrimyothe-munkar/",
+      "permanent": true
+    }
+  ]
 }
